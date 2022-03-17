@@ -2,7 +2,7 @@
 
 ## Creating Layout Variants
 
-**This branch consists of task 1 for the lab 2 of DMA module. The codes for the respective tasks are provided in the branch along
+**This branch consists of task 1 for the lab 2 of DMA module. The codes for the respective tasks are provided in this branch along
 with the screenshots**
 
 ---
@@ -30,7 +30,8 @@ layout variation from the existing vertical variation.**
 
 ![alt](SS/TabletPortrait.png)
 
-**The above screenshot shows the final app layout variation for tablets being executed in portrait mode.**
+**The above screenshot shows the final app layout variation for tablets being executed in portrait mode. In this task, 'Baseline
+Constraint' was used for arranging the buttons and they were expanded horizontally as well.**
 
 --- 
 
