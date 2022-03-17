@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">HelloToastLab2</string>
+    <string name="button_toast">Toast</string>
+    <string name="button_count">Count</string>
+    <string name="initial_count">0</string>
 </resources>
