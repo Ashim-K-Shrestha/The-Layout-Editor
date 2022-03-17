@@ -2,6 +2,7 @@ package com.example.hellotoastlab2;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -11,7 +12,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     // declaring the variables for every views
-    private Button Toast_btn, Count_btn;
+    private Button Toast_btn, Count_btn, Zero_btn;
 
     private TextView Count_View;
 
@@ -26,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         // assigning the view to the variables using their id
         Toast_btn = findViewById(R.id.button_toast2);
         Count_btn = findViewById(R.id.button_count2);
+        Zero_btn = findViewById(R.id.button_zero);
 
         Count_View = findViewById(R.id.show_count2);
 
@@ -39,6 +41,19 @@ public class MainActivity extends AppCompatActivity {
                 // count+"" is done to convert into string
                 // setting the value of the counter to the textView
                 Count_View.setText(count + "");
+
+                if(count % 2 == 0)
+                {
+                    Count_btn.setBackgroundColor(Color.GREEN);
+                }
+                else{
+                    Count_btn.setBackgroundColor(Color.BLACK);
+                }
+
+                if(count > 0)
+                {
+                    Zero_btn.setBackgroundColor(Color.MAGENTA);
+                }
             }
         });
 
@@ -50,6 +65,14 @@ public class MainActivity extends AppCompatActivity {
                 // Toast is a pre-defined class
                 // MainActivity.this -> calling the parent constructor/class
                 Toast.makeText(MainActivity.this, "You are great!", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        Zero_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                count = 0;
+                Count_View.setText(count + "");
             }
         });
     }

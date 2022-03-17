@@ -8,49 +8,49 @@
 
     <Button
         android:id="@+id/button_toast2"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
         android:background="@color/design_default_color_primary"
         android:text="@string/button_toast"
         android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="8dp" />
 
     <Button
         android:id="@+id/button_count2"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginTop="36dp"
         android:background="@color/design_default_color_primary"
         android:text="@string/button_count"
         android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/button_zero"
+        tools:layout_editor_absoluteX="7dp" />
 
     <TextView
         android:id="@+id/show_count2"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_width="295dp"
+        android:layout_height="214dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
         android:background="#FFFF00"
         android:gravity="center|center_horizontal|center_vertical"
         android:text="@string/initial_count"
         android:textColor="@color/design_default_color_primary"
         android:textSize="160sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/button_count2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_toast2" />
+        app:layout_constraintStart_toEndOf="@+id/button_zero"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <Button
+        android:id="@+id/button_zero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@android:color/darker_gray"
+        android:text="Zero"
+        app:backgroundTint="@android:color/darker_gray"
+        app:layout_constraintTop_toBottomOf="@+id/button_toast2"
+        tools:layout_editor_absoluteX="7dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
