@@ -1,12 +1,12 @@
-# Task 2: Change the Layout to LinearLayout
+# Task 3: Changing the Layout to RelativeLayout
 
-**In this task, the layout of the created app was changed from ConstraintLayout to LinearLayout. The codes for the task along
-with the screenshot are provided here.**
+**This branch consists of the codes and screenshot for the 'Task 3' section of Lab 2.**
 
 ---
 
-## The final app
+## The UI:
 
-![UI](SS/Task2UI.png)
+![Task 3 UI](SS/Task3UI.png)
 
-**The screenshot above shows the UI of the final app that was created after changing the layout to LinearLayout.**
+**The screenshot above shows the final UI of the app created in the task 3 of lab 2. The layout was changed from LinearLayout
+to RelativeLayout and the app was run in a physical device.**
