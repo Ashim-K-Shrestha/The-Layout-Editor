@@ -16,16 +16,30 @@ Similarly, the 'Zero' button sets the counter value to 0 when pressed.**
 
 ## Count Button Feature
 
-![Count Feature](CountBtn.png)
-
-**The screenshot above shows the feature added to the count button where the background color of the button is set to Green when
+**This is the feature that is added to the count button where the background color of the button is set to Green when
 the counter value is 'even' and the color is set to black when the counter value is 'odd'.**
+
+![Count Feature](CountBtnEven.png)
+
+**The background color of the count button is set to green when the count value is even.**
+
+![Count Feature](CountBtnOdd.png)
+
+**The background color of the count button is set to black when the count value is even.**
+
 
 ---
 
 ## Zero Button Feature
 
+**This is the feature included with the zero button of the app. The background color of the button is set to teal when the
+counter value is greater than 1 or when it is active and when it is pressed the value is set to 0 along with the change in its background color to what it
+was before.**
+
+![Zero Button](ZeroBtnActive.png)
+
+**The background color of the zero button is set to teal referring that it is active.**
+
 ![Zero Button](ZeroBtn.png)
 
-**The screenshot above shows the feature included with the zero button. The background color of the button is set to Gray when the
-counter value is greater than 1 and when it is pressed the value is set to 0 along with the change in its background color.**
+**The background color of the zero button is set to the original color when it is pressed. The count value is also set to 0.**

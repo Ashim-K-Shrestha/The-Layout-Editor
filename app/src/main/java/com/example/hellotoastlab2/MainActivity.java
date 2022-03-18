@@ -41,18 +41,18 @@ public class MainActivity extends AppCompatActivity {
                 // count+"" is done to convert into string
                 // setting the value of the counter to the textView
                 Count_View.setText(count + "");
+                // setting the background color of zero button when count button is pressed
+                Zero_btn.setBackgroundResource(R.color.teal_200);
 
+                // checking if the value of count is even or odd at the moment
                 if(count % 2 == 0)
                 {
-                    Count_btn.setBackgroundColor(Color.GREEN);
+                    // set color if even
+                    Count_btn.setBackgroundResource(R.color.green);
                 }
-                else{
-                    Count_btn.setBackgroundColor(Color.BLACK);
-                }
-
-                if(count > 0)
-                {
-                    Zero_btn.setBackgroundColor(Color.MAGENTA);
+                else if(count % 2 == 1){
+                    // set color if odd
+                    Count_btn.setBackgroundResource(R.color.black);
                 }
             }
         });
@@ -71,8 +71,14 @@ public class MainActivity extends AppCompatActivity {
         Zero_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                // setting the count to 0
                 count = 0;
+                // setting the text to the textView
                 Count_View.setText(count + "");
+                // setting the background color to the count button
+                Count_btn.setBackgroundResource(R.color.purple_500);
+                // setting the background color to the zero button
+                Zero_btn.setBackgroundResource(R.color.grey);
             }
         });
     }
