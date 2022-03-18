@@ -49,8 +49,8 @@ was before.**
 
 ## Landscape View
 
-**The screenshots below show the landscape view created for the final app with all the features that were available in the 
-portrait view of the app.**
+**The landscape view for the final app was also created in this task. The screenshots below show the landscape view created for
+the final app with all the features that were available in the portrait view of the app.**
 
 ![Landscape UI](SS/LandscapeUI.png)
 
