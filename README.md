@@ -23,7 +23,7 @@ the counter value is 'even' and the color is set to black when the counter value
 
 **The background color of the count button is set to green when the count value is even.**
 
-![Count Feature](SS/CountBtnOdd.png)
+![Count Feature Odd](SS/CountBtnOdd.png)
 
 **The background color of the count button is set to black when the count value is even.**
 
@@ -36,10 +36,30 @@ the counter value is 'even' and the color is set to black when the counter value
 counter value is greater than 1 or when it is active and when it is pressed the value is set to 0 along with the change in its background color to what it
 was before.**
 
-![Zero Button](SS/ZeroBtnActive.png)
+![Zero Button Active](SS/ZeroBtnActive.png)
 
 **The background color of the zero button is set to teal referring that it is active.**
 
-![Zero Button](SS/ZeroBtn.png)
+![Zero Button Inactive](SS/ZeroBtn.png)
 
 **The background color of the zero button is set to the original color when it is pressed. The count value is also set to 0.**
+
+
+---
+
+## Landscape View
+
+**The screenshots below show the landscape view created for the final app with all the features that were available in the 
+portrait view of the app.**
+
+![Landscape UI](SS/LandscapeUI.png)
+
+**The Landscape UI for the final app.**
+
+![Landscape Count Even](SS/LandscapeUIEven.png)
+
+**The Count button feature for the even values.**
+
+![Landscape Count Odd](SS/LandscapeCountOdd.png)
+
+**The Count button feature for the odd values.**

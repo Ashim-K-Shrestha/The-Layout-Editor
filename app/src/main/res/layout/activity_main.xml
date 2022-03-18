@@ -48,7 +48,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:background="@android:color/darker_gray"
-        android:text="Zero"
+        android:text="@string/button_zero"
         app:layout_constraintTop_toBottomOf="@+id/button_toast2"
         tools:layout_editor_absoluteX="7dp" />
 
