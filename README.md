@@ -68,8 +68,8 @@ the final app with all the features that were available in the portrait view of 
 
 ## Tablet(xlarge) View
 
-**The tablet view for the final app was also created in this task. The screenshot below show the tablet view created for
-the final app that contains all the features that were available in the portrait view of the app.**
+**The tablet view for the final app was also created in this task. The screenshot below shows the tablet view created for
+the final app that accommodates all the features that were available in the portrait view of the app.**
 
 ![Landscape UI](SS/TabletView.png)
 
