@@ -25,7 +25,7 @@ the counter value is 'even' and the color is set to black when the counter value
 
 ![Count Feature Odd](SS/CountBtnOdd.png)
 
-**The background color of the count button is set to black when the count value is even.**
+**The background color of the count button is set to black when the count value is odd.**
 
 
 ---
