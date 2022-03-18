@@ -63,3 +63,14 @@ the final app with all the features that were available in the portrait view of 
 ![Landscape Count Odd](SS/LandscapeCountOdd.png)
 
 **The Count button feature for the odd values.**
+
+---
+
+## Tablet(xlarge) View
+
+**The tablet view for the final app was also created in this task. The screenshot below show the tablet view created for
+the final app that contains all the features that were available in the portrait view of the app.**
+
+![Landscape UI](SS/TabletView.png)
+
+**The tablet(xlarge) UI for the final app.**

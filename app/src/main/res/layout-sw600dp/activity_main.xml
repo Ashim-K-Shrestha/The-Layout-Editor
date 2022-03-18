@@ -1,55 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="horizontal"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/button_toast2"
-        android:layout_width="398dp"
+    <LinearLayout
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/design_default_color_primary"
-        android:text="@string/button_toast"
-        android:textColor="@color/white"
-        android:textSize="60sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginLeft="8dp" />
+        android:orientation="vertical">
 
-    <Button
-        android:id="@+id/button_count2"
-        android:layout_width="399dp"
-        android:layout_height="wrap_content"
-        android:background="@color/design_default_color_primary"
-        android:text="@string/button_count"
-        android:textColor="@color/white"
-        android:textSize="60sp"
-        android:layout_marginStart="8dp"
-        app:layout_constraintBaseline_toBaselineOf="@+id/button_toast2"
-        app:layout_constraintStart_toEndOf="@+id/button_toast2"
-        android:layout_marginLeft="8dp" />
+        <Button
+            android:id="@+id/button_toast2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@color/design_default_color_primary_dark"
+            android:text="@string/button_toast"
+            android:textColor="@android:color/white" />
 
-    <TextView
-        android:id="@+id/show_count2"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:background="#FFFF00"
-        android:gravity="center|center_horizontal|center_vertical"
-        android:text="@string/initial_count"
-        android:textColor="@color/design_default_color_primary"
-        android:textSize="200sp"
-        android:textStyle="bold"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_toast2" />
+        <Button
+            android:id="@+id/button_zero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_toast2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@color/grey"
+            android:text="@string/button_zero"
+            android:textColor="#4E342E"
+            app:layout_constraintBottom_toTopOf="@+id/button_count"
+            app:layout_constraintTop_toBottomOf="@+id/button_toast" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <Button
+            android:id="@+id/button_count2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_zero"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@color/purple_500"
+            android:text="@string/button_count"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/show_count2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#FFFF00"
+            android:gravity="center"
+            android:text="@string/initial_count"
+            android:textAlignment="center"
+            android:textColor="@color/design_default_color_primary"
+            android:textSize="160sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>
