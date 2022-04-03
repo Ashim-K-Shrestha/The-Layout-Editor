@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!--Button to display the toast message-->
     <Button
         android:id="@+id/button_toast2"
         android:layout_width="wrap_content"
@@ -16,6 +17,7 @@
         tools:layout_editor_absoluteX="7dp"
         tools:layout_editor_absoluteY="8dp" />
 
+    <!--Button to increase the count value-->
     <Button
         android:id="@+id/button_count2"
         android:layout_width="wrap_content"
@@ -27,6 +29,7 @@
         app:layout_constraintTop_toBottomOf="@+id/button_zero"
         tools:layout_editor_absoluteX="7dp" />
 
+    <!--Text View to display the count value-->
     <TextView
         android:id="@+id/show_count2"
         android:layout_width="295dp"
@@ -42,6 +45,7 @@
         app:layout_constraintStart_toEndOf="@+id/button_zero"
         tools:layout_editor_absoluteY="8dp" />
 
+    <!--Button to set the count value to 0-->
     <Button
         android:id="@+id/button_zero"
         android:layout_width="wrap_content"
