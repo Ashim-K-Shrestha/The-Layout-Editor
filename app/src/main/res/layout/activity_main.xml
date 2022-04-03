@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!--Button to display the toast message-->
     <Button
         android:id="@+id/button_toast2"
         android:layout_width="0dp"
@@ -20,6 +21,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <!--Button to increase the value of count-->
     <Button
         android:id="@+id/button_count2"
         android:layout_width="0dp"
@@ -34,6 +36,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <!--Text View to display the counter value-->
     <TextView
         android:id="@+id/show_count2"
         android:layout_width="0dp"

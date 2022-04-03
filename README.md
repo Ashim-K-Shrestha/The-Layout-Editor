@@ -3,7 +3,7 @@
 ## Creating Layout Variants
 
 **This branch consists of task 1 for the lab 2 of DMA module. The codes for the respective tasks are provided in this branch along
-with the screenshots**
+with the screenshots. The main task was to create layout variants for different views and devices.**
 
 ---
 
