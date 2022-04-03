@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <!--Button to display the toast message-->
         <Button
             android:id="@+id/button_toast2"
             android:layout_width="wrap_content"
@@ -25,6 +26,7 @@
             android:text="@string/button_toast"
             android:textColor="@android:color/white" />
 
+        <!--Button to set the count value to 0-->
         <Button
             android:id="@+id/button_zero"
             android:layout_width="wrap_content"
@@ -41,6 +43,7 @@
             app:layout_constraintBottom_toTopOf="@+id/button_count"
             app:layout_constraintTop_toBottomOf="@+id/button_toast" />
 
+        <!--Button to increase the count value-->
         <Button
             android:id="@+id/button_count2"
             android:layout_width="wrap_content"
@@ -62,6 +65,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
+        <!--Text View to display the count value-->
         <TextView
             android:id="@+id/show_count2"
             android:layout_width="match_parent"
